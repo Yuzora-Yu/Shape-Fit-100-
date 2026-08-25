@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "shape-fit-100",
+  "compatibility_date": "2026-08-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "vinext/server/app-router-entry",
+  "assets": {
+    "not_found_handling": "none"
+  },
+  "routes": [
+    {
+      "pattern": "yu-zora.com/games/shape-fit-100*",
+      "zone_name": "yu-zora.com"
+    }
+  ]
+}
